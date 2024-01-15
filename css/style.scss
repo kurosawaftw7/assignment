@@ -7,3 +7,23 @@
 .img-fluid {
     max-width: 600px;
 }
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    padding: 2rem;
+}
+
+a {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+img {
+    padding-top: 2rem;
+}
+
+.accordion-button {
+    background-color: aqua;
+}
