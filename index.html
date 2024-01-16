@@ -12,7 +12,7 @@
     </head>
     <body>
         <main class="main">
-            <nav class="nav-header">
+            <nav class="nav-header bg-success">
                 <a href="index.html">Landing</a>
                 <a href="images.html">Images</a>
                 <a href="accordion.html">Accordion</a>
@@ -22,10 +22,17 @@
             <button type="button" id="gerbButton1" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-placement="bottom" title="Who are Sam and Frodo?" data-bs-content="The best gerbils ever!">Who are Sam and Frodo?</button>
             <script>
                 var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-  return new bootstrap.Popover(popoverTriggerEl)
-})
+                var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl)
+            })
             </script>
+            <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="The best rodents ever">What are gerbils?</button>
+            <script>var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+                var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+            </script>
+            <!-- Obtained from Bootstrap 5 Website -->
         </main>
     </body>
 </html>
