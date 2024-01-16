@@ -5,10 +5,13 @@
 @import 'components.content';
 
 .img-fluid {
-    max-width: 450px;
+    // img and CSS formatting
+    max-width: 500px;
+    min-width: 100px;
 }
 
 .nav-header {
+    // css for the nav bar
     display: flex;
     justify-content: center;
     background-color: burlywood;
@@ -16,11 +19,13 @@
 }
 
 a {
+    // link padding
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
 img {
+    // img padding and other css
     padding-top: 2rem;
 }
 
@@ -30,5 +35,6 @@ h1 {
 }
 
 .accordion-button {
+    // background color for accordion button
     background-color: aqua;
 }
